@@ -1,0 +1,41 @@
+/* Definição de cores */
+:root {
+    --cor-primaria: #1E3A8A; /* Azul escuro */
+    --cor-secundaria: #3B82F6; /* Azul médio */
+    --cor-texto: #F3F4F6; /* Cinza claro */
+    --cor-fundo: #0F172A; /* Azul quase preto */
+    --cor-hover: #60A5FA; /* Azul claro */
+}
+
+/* Reset e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    color: var(--cor-texto);
+}
+
+/* Caixa de login */
+.login-box h2 {
+font-size: 2rem;
+margin-bottom: 10px;
+}

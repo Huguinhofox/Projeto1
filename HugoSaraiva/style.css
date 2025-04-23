@@ -1,0 +1,15 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, ifr)):
+    row-gap:20px;
+}
+
+.item {
+    background-color:rgb(227, 36, 36);
+}
