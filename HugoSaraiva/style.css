@@ -1,15 +1,102 @@
-*{
-
-    margin: 0;
-    padding: 0;
+body {
+background-color: #27272a;
 }
 
-#container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, ifr)):
-    row-gap:20px;
+.container {
+    display: flex;
+    gap: 10px;
+    /* row-gap: 10px; /*
+    /* column-gap: 30px /*
+    height: 600px;
+    /* height: 600px; */
+    /* flex-flow: column wrap; */
+    /* flex-wrap: wrap; */
+     justify-content: center; 
+     align-items: center;
+   background-color: #6366f1;
 }
 
 .item {
-    background-color:rgb(227, 36, 36);
+    width: 200px;
+    height: 200px;
+    background-color: #38bdf8;
 }
+
+.item-3 {
+    /* align-self: flex-end; */
+    order: -1;
+}
+
+.item-6 {
+    order: 3;
+}
+   
+<div>
+<section>
+
+body{
+    margin:0;
+    padding:0;
+    p {background-color: #934646;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,5h,6h{
+    font-weight: 900;
+   p {background-color: #c41818;
+   
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    p {background-color: #18ad65;
+}
+
+.container{
+    width: 100%;
+     max-width: 760px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:Last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background:#18ad65;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position|: 50% 50%;
+}
+
+section.module.parallax{
+    background-image: url(https://www.infoescola.com/wp-content/uploads/2017/04/leao-126767138.jpg)
+
+<div>
+</section>
